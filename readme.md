@@ -1,7 +1,10 @@
 # Portfolio Website
 
 ## Description
-This is the personal portfolio website of Dishant Bhatnagar, showcasing projects, skills, professional experience, and testimonials. The site is designed to provide a comprehensive overview of Dishant's technical expertise and achievements.
+This is the personal portfolio website of [Dishant Bhatnagar]((https://dbdishant.github.io/Dishant_Portfolio.github.io/)), showcasing projects, skills, professional experience, and testimonials. The site is designed to provide a comprehensive overview of Dishant's technical expertise and achievements.
+
+## Website link
+https://dbdishant.github.io/Dishant_Portfolio.github.io/
 
 ## Features
 - **Home Section**: A welcoming introduction with professional branding.
@@ -20,7 +23,7 @@ This is the personal portfolio website of Dishant Bhatnagar, showcasing projects
 ## How to Use
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/dbdishant/Dishant_Portfolio.github.io.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -32,11 +35,12 @@ This is the personal portfolio website of Dishant Bhatnagar, showcasing projects
 ```
 portfolio/
 ├── index.html        # Main HTML file
-├── css/
-│   └── style.css     # Stylesheet
-├── js/
-│   └── script.js     # JavaScript for interactivity
-├── images/           # Folder for images and assets
+├── assets/
+|   └──css/
+│      └── style.css     # Stylesheet
+|   └──img/              # contains all images of the website
+|   └──js/
+│      └── main.js     # JavaScript for interactivity
 └── README.md         # Project README file
 ```
 
