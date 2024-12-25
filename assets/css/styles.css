@@ -132,7 +132,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
-  padding: 0;
+  /* padding: 0; */
 }
 
 h1, h2, h3, h4 {
@@ -205,7 +205,7 @@ img {
   /* height: 0rem; */
   display: flex;
   /* justify-content: space-between; */
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -317,7 +317,7 @@ img {
   grid-template-columns: .5fr 3fr;
   padding-top: 3.5rem;
   align-items: center;
-  column-gap: 2rem;
+  /* column-gap: 2rem; */
 }
 
 .home_social{
@@ -418,8 +418,47 @@ img {
 .button--flex{
   display: inline-flex;
   align-items: center;
-  margin-left: 130px;
+  /* margin-left: 130px; */
 
+}
+
+.button--home{
+  display: inline-flex;
+  align-items: center;
+  /* margin-left: 130px; */
+
+}
+
+@media (max-width: 768px) {
+  .button--home {
+    margin-left: 150px;
+  }
+}
+
+.button--about{
+  display: inline-flex;
+  align-items: center;
+  margin-left: 325px;
+
+}
+
+@media (max-width: 768px) {
+  .button--about {
+    margin-left: 172px;
+  }
+}
+
+.button--contact_me {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 130px; /* Default for desktops */
+}
+
+/* Media query for smartphones */
+@media (max-width: 768px) {
+  .button--contact_me {
+    margin-left: 50px;
+  }
 }
 
 
@@ -434,7 +473,7 @@ img {
 }
 
 .about_description{
-  /* text-align: justify all; */
+  text-align: justify all;
   margin-bottom: var(--mb-2-5);
   text-align: center;
 }
@@ -466,9 +505,9 @@ img {
   justify-content: center;
 }
 
-.about_button{
+/* .about_button{
   padding-left: 180px;
-}
+} */
 /*==================== SKILLS ====================*/
 .skills_container{
   row-gap: 0;
@@ -750,6 +789,13 @@ h4 {
   margin-top: 2rem;
   justify-content: center;
   margin-left: 250px;
+}
+
+/* Media query for smartphones */
+@media (max-width: 768px) {
+  .portfolio_button {
+    margin-left: 120px;
+  }
 }
 
 .swiper-portfolio-icon{
@@ -1062,7 +1108,7 @@ h4 {
 
   .home_content{
     grid-template-columns: .25fr 3fr;
-    column-gap: 2rem;
+    /* column-gap: 2rem; */
   }
 
   .home_blob{
@@ -1127,6 +1173,13 @@ h4 {
   justify-self: center;
 }
 
+/* Media query for smartphones */
+@media (max-width: 768px) {
+  .home_img {
+    margin-left: 200px;
+  }
+}
+
 .about_container,
 .skills_container,
 .portfolio_content,
@@ -1150,7 +1203,7 @@ h4 {
 
   body{
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
   }
 
   /* .section{
